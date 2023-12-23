@@ -9,6 +9,7 @@
     <h1>HTML Form Example</h1>
     <!-- TODO 2.1: Add the container for the form. It should POST to "/submit_form"  -->
     <form action="/submit_form" method="post">
+
         <!-- TODO 2.2: Add a first name text field -->
         <label for="fName">First name</label><br />
         <input type="text" id="fName" name="fName"><br />
@@ -42,7 +43,6 @@
         <input type="radio" id="faceToFace" name="learningMode" value="faceToFace">
         <label>Face-to-Face</label><br />
 
-
         <!-- TODO 2.8: Add check boxes that ask which subjects the user has taken -->
         <label for="subjectsTaken">Which subjects have you taken?</label><br />
         <input type="checkbox" id="IT100" name="IT100">
@@ -51,13 +51,11 @@
         <label>IT101</label>
         <input type="checkbox" id="IT114" name="IT114">
         <label>IT114</label><br />
-        
        
         <!-- TODO 2.9: Add a text area that asks the user if they would prefer to be a cactus or a shark -->
         <label for="cactusShark">Would you rather be a cactus or a shark? why?</label><br />
         <textarea name="cactusShark" cols="35" rows="10"></textarea><br />
         
-
         <!-- TODO 2.10: Add a submit button -->
         <input type="submit" value="Submit"/>
     </form>
